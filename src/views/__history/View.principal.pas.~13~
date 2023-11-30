@@ -1,0 +1,61 @@
+unit View.principal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls, Vcl.Buttons;
+
+type
+  TForm1 = class(TForm)
+    Panel1: TPanel;
+    Button1: TButton;
+    Panel2: TPanel;
+    Panel3: TPanel;
+    Panel6: TPanel;
+    Panel7: TPanel;
+    Panel8: TPanel;
+    Label1: TLabel;
+    Label2: TLabel;
+    Panel9: TPanel;
+    Label4: TLabel;
+    Label3: TLabel;
+    Panel11: TPanel;
+    Panel10: TPanel;
+    Panel12: TPanel;
+    Image1: TImage;
+    Panel13: TPanel;
+    Label5: TLabel;
+    Label6: TLabel;
+    Panel4: TPanel;
+    Panel5: TPanel;
+    Panel14: TPanel;
+    Panel15: TPanel;
+    Label7: TLabel;
+    Label8: TLabel;
+    Panel16: TPanel;
+    Panel17: TPanel;
+    Shape1: TShape;
+    Shape2: TShape;
+    Panel18: TPanel;
+    SpeedButton1: TSpeedButton;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.Button1Click(Sender: TObject);
+begin
+  Application.Terminate;
+end;
+
+end.
